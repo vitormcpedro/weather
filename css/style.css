@@ -1,0 +1,62 @@
+html, body {
+  height: 100%;
+}
+
+.container-fluid {
+  background-color: #424242;
+  color: white;
+  height: 100%;
+  font-family: 'Open Sans', Arial;
+}
+
+.title {
+  font-size: 80px;
+  font-family: 'Indie Flower', cursive;
+}
+
+#loader {
+  border: 8px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 8px solid #3498db;
+  width: 50px;
+  height: 50px;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+.clickable {
+  cursor: pointer;
+  
+  /* Disable selection */
+  -moz-user-select: none; 
+  -khtml-user-select: none; 
+  -webkit-user-select: none; 
+  -o-user-select: none;
+}
+
+#temp_units {
+  color: #3498db;
+}
+
+.content {
+  font-size: 30px;
+}
+
+.message {
+  font-size: 15px;
+}
+
+.weather_image {
+  margin-top: 10px;
+}
+
+.teste {
+  -webkit-box-shadow: 0px 0px 16px 5px rgba(184,184,184,1);
+-moz-box-shadow: 0px 0px 16px 5px rgba(184,184,184,1);
+box-shadow: 0px 0px 16px 5px rgba(184,184,184,1);
+}
